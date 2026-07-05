@@ -1,0 +1,15 @@
+#PYTHON
+print("ABOUT THE TYPE CONVERTION")
+
+n = float(input("ENTER THE NUMBER : "))
+
+print(type(n)) #to_see_data_type
+print(n)
+print(int(n)) #to_convert_other_data_type
+print(str(n)+10)#to_String
+
+#Function	Converts To	Example
+#int()	        Integer	        int("10")
+#float()	Float	        float("10.5")
+#str()	        String	        str(100)
+#bool()	        Boolean	        bool(1)
