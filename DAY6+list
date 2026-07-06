@@ -11,7 +11,7 @@ mylist = list(input("ENTER THE ITEMS YOU BUY : ").split())
 print(mylist)
 print(mylist[2])
 
-#--------------------------Mixed Data Type List-----------------------------------
+#--------------------------Mixed Data Type List-------------------------------
 
 data = []
 
@@ -21,3 +21,21 @@ data.append(float(input("Enter a float: ")))
 data.append(input("Enter True/False: ") == "True")
 
 print(data)
+
+#--------------------------operation------------------------------------------
+numbers = [10, 20, 30, 40]
+
+print(sum(numbers))
+print(max(numbers))
+print(min(numbers))
+
+#--------------------------nested_list------------------------------------------
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+print(matrix[1][2])
+
+
