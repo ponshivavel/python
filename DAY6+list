@@ -1,5 +1,16 @@
-#SYNTAX my_list = []
+#---------------------------SYNTAX my_list = []----------------------------------
 
-mylist = list(map(int,input("ENTER THE ITEMS YOU BUY : ").split()))
+mylist = list(input("ENTER THE ITEMS YOU BUY : ").split())
 print(mylist)
 print(mylist[2])
+
+#--------------------------Mixed Data Type List-----------------------------------
+
+data = []
+
+data.append(int(input("Enter an integer: ")))
+data.append(input("Enter a string: "))
+data.append(float(input("Enter a float: ")))
+data.append(input("Enter True/False: ") == "True")
+
+print(data)
