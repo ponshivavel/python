@@ -1,3 +1,10 @@
+# List: Ordered, mutable collection using [].
+# Mutable: Elements can be added, removed, or changed.
+# Indexing: Starts at 0; negative indexing starts at -1.
+# Slicing: list[start:end:step].
+# Nested List: A list inside another list, accessed with multiple indices (e.g., matrix[1][2]).
+
+
 #---------------------------SYNTAX my_list = []----------------------------------
 
 mylist = list(input("ENTER THE ITEMS YOU BUY : ").split())
