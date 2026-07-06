@@ -1,0 +1,5 @@
+#SYNTAX my_list = []
+
+mylist = list(map(int,input("ENTER THE ITEMS YOU BUY : ").split()))
+print(mylist)
+print(mylist[2])
