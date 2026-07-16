@@ -1,0 +1,5 @@
+file = open("information.txt","a")
+#read = file.readlines()
+file.write("hai")
+print(file)
+file.close()
