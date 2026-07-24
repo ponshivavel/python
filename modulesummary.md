@@ -1,5 +1,10 @@
 # 🐍 Python Notes
-
+'''
+ord
+ Character Arithmetic & Alphabet OffsetsIn problems like LeetCode's Excel Sheet Column Title or cipher algorithms, ord() allows you to map letters to numbers ($0$ to $25$):
+ Python# Convert character 'C' to 0-indexed position (0 for 'A', 1 for 'B', 2 for 'C')
+pos = ord('C') - ord('A') 
+# 67 - 65 = 2
 ---
 
 # 📚 Modules in Python
